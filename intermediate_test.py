@@ -6,7 +6,8 @@ def add_to_list(numbers):
     Return:
     - The modified list.
     """
-    pass
+    numbers.append(6)
+    return numbers
 
 
 def remove_from_list(numbers):
@@ -17,7 +18,8 @@ def remove_from_list(numbers):
     Return:
     - The modified list.
     """
-    pass
+    numbers.remove(3)
+    return numbers
 
 
 def insert_at_beginning(numbers):
@@ -25,10 +27,11 @@ def insert_at_beginning(numbers):
     Task:
     - Insert the number 0 at the beginning of the given list `numbers`.
     
-    Return:
+    Return:git@github.com:ChumaMike/python_dataTypes_test.git
     - The modified list.
     """
-    pass
+    numbers[0].append(0)
+    return numbers
 
 
 def reverse_list(numbers):
@@ -39,7 +42,10 @@ def reverse_list(numbers):
     Return:
     - The reversed list.
     """
-    pass
+    STR = str(numbers)
+    rev_str = STR[::-1]
+    ls_num = list(rev_str)
+    return ls_num
 
 
 def create_new_tuple(t):
